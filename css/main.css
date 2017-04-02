@@ -3,7 +3,6 @@
 body {
     background-color: #fff;
     font-family: sans-serif;
-    line-height: 24px;
     font-size: 16px;
 }
 
@@ -949,12 +948,12 @@ ul.external li a:hover {
 }
 
 .form-control {
-    border: 1px solid #ececec;
-    border-radius: 0;
-    box-shadow: none;
-    color: #818181;
-    font-size: 16px;
-    height: 50px;
+  border: 1px solid black;
+  border-radius: 1px;
+  box-shadow: none;
+  color: #818181;
+  font-size: 12px;
+  height: 30px;
 }
 
 textarea.form-control {
@@ -1475,11 +1474,11 @@ margin-bottom: 5%;
 }
 /*register section*/
 #register{
-  background-image: url(../img/slider/mun9.jpeg);
+  background: url(../img/slider/mun9.jpeg);
   background-color: rgba(0,0,0,.5);
   background-blend-mode: multiply;
   padding: 0;
-  background-size: cover;
+  background-size: contain;
 }
 
 .regForm1{
