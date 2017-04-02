@@ -1479,4 +1479,9 @@ margin-bottom: 5%;
   background-color: rgba(0,0,0,.5);
   background-blend-mode: multiply;
   padding: 0;
+  background-size: cover;
+}
+
+.regForm1{
+  color: white;
 }
