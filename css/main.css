@@ -1473,3 +1473,10 @@ margin-bottom: 5%;
       border: 1px solid black;
       letter-spacing: 1px;
 }
+/*register section*/
+#register{
+  background-image: url(../img/slider/mun9.jpeg);
+  background-color: rgba(0,0,0,.5);
+  background-blend-mode: multiply;
+  padding: 0;
+}
