@@ -442,35 +442,6 @@ h1.navbar-brand {
     height: 100%;
 }
 
-/* Default styles for background colors
-
-.btn-effect:after {
-    width: 0%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: #fff;
-    content: "";
-    position: absolute;
-    z-index: -1;
-
-    -webkit-transition: all 0.3s ease-out 0s;
-       -moz-transition: all 0.3s ease-out 0s;
-        -ms-transition: all 0.3s ease-out 0s;
-         -o-transition: all 0.3s ease-out 0s;
-            transition: all 0.3s ease-out 0s;
-}
-
-.btn-effect:hover,
-.btn-effect:active {
-    color: #0e83cd;
-}
-
-.btn-effect:hover:after,
-.btn-effect:active:after {
-    width: 100%;
-} */
-
 
 /* Project laughtbox setup */
 
