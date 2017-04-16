@@ -1,9 +1,9 @@
 
 #custom-bootstrap-menu.navbar-default .navbar-brand
 {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255,.8);
     text-transform: uppercase;
-    font-family: 'Times New Roman' , Times, serif;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: x-large;
     font-weight: bold;
 }
