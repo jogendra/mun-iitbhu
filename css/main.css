@@ -1462,8 +1462,10 @@ flex-direction: row;
 justify-content: center;
 margin-bottom: 5%;
 }
-.regForms button{
-  background: rgba(0,0,0,.5);
+
+
+.regForms  .regFormsButton{
+  background: rgba(0,0,0,.4);
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1471,5 +1473,12 @@ margin-bottom: 5%;
     margin: 0 auto;
     border: 1px solid black;
     border-radius: 5px;
+    font-family: sans-serif;
 
+}
+
+.regForms .regFormsButton:hover{
+  background: black;
+  transition: 0.3s;
+  color: rgba(255,255,255,.6);
 }
