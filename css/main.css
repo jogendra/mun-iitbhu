@@ -553,11 +553,11 @@ h1.navbar-brand {
 }
 
 .service-item:hover .service-icon {
-  border: 1px solid black;
-  margin-bottom: 20px;
-  color: black;
-  outline: 1px solid black;
-  outline-offset: 5px;
+    border: 1px solid rgba(0,0,0,.4);
+    margin-bottom: 20px;
+    color: black;
+    outline: 1px solid rgba(0,0,0,.6);
+    outline-offset: 5px;
 }
 
 .service-icon i {
