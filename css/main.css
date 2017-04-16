@@ -1463,7 +1463,13 @@ justify-content: center;
 margin-bottom: 5%;
 }
 .regForms button{
-  padding: 1.2% 2%;
-  margin: 0 auto;
-  
+  background: rgba(0,0,0,.5);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.2% 2%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+
 }
