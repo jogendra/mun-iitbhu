@@ -255,10 +255,35 @@
 								<div class="service-icon">
 									<i class="fa fa-home fa-3x"></i>
 								</div>
-								<h3>Support</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                <button>Detail</button>
+								<h3>UNSC</h3>
+								<p>United Nation Security Council</p>
+                <button onclick="pop1()">Detail</button>
+
 							</div>
+<!-- model poup 1-->
+<div class="committees-detail" id = "p1" style="display:none;">
+  <button class="headcom">UNSC</button><br>
+  The Security Council takes the lead in determining the existence of a threat to the peace or act of aggression. It calls upon the parties to a dispute to settle it by peaceful means and recommends methods of adjustment or terms of settlement. In some cases, the Security Council can resort to imposing sanctions or even authorize the use of force to maintain or restore international peace and security.
+(The part after this can be removed if required. It's additional filler information that can be included or not as per requirement)
+The Security Council also recommends to the General Assembly the appointment of the Secretary-General and the admission of new Members to the United Nations. And, together with the General Assembly, it elects the judges of the International Court of Justice.
+<br>
+<button onclick="close1()" class="close1">Close</button>
+</div>
+<script>
+
+function pop1(){
+  document.getElementById('p1').style.display = "block";
+}
+
+function close1(){
+  if(document.getElementById("p1").style.display == "block"){
+									document.getElementById("p1").style.display = "none";
+                }
+}
+</script>
+
+<!-- / end modal popup -->
+
 						</div>
 
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
@@ -266,22 +291,38 @@
 								<div class="service-icon">
 									<i class="fa fa-tasks fa-3x"></i>
 								</div>
-								<h3>Well Documented</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                <button>Detail</button>
+								<h3>UNGA-DISEC</h3>
+								<p>United Nations General Assembly- Disarmament and International Security</p>
+                <button onclick="pop2()">Detail</button>
+
 							</div>
+
+              <!-- model poup 2-->
+              <div class="committees-detail" id = "p2" style="display:none;">
+                <button class="headcom">UNGA-DISEC</button>
+                <br>
+                The First of the six main committees at the GA of the United Nations, this committee deals with disarmament, global challenges and threats to peace that affect the international community and seeks out solutions to the challenges in the international security regime. It considers all disarmament and international security matters within the scope of the Charter or relating to the powers and functions of any other organ of the United Nations; the general principles of cooperation in the maintenance of international peace and security, as well as principles governing disarmament and the regulation of armaments; promotion of cooperative arrangements and measures aimed at strengthening stability through lower levels of armaments.
+              <br>
+              <button onclick="close2()" class="close2">Close</button>
+              </div>
+              <script>
+
+              function pop2(){
+                document.getElementById('p2').style.display = "block";
+              }
+
+              function close2(){
+                if(document.getElementById("p2").style.display == "block"){
+              									document.getElementById("p2").style.display = "none";
+                              }
+              }
+              </script>
+
+              <!-- / end modal popup -->
+
 						</div>
 
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
-							<div class="service-item">
-								<div class="service-icon">
-									<i class="fa fa-clock-o fa-3x"></i>
-								</div>
-								<h3>Design UI/UX</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                <button>Detail</button>
-							</div>
-						</div>
+
 
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
 							<div class="service-item">
@@ -289,10 +330,71 @@
 									<i class="fa fa-heart fa-3x"></i>
 								</div>
 
-								<h3>Web Security</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                <button>Detail</button>
+								<h3>UNIDO</h3>
+								<p>United Nations Industrial Development Organization</p>
+                <button onclick="pop3()">Detail</button>
+                <div class="committees-detail"></div>
 							</div>
+              <!-- model poup 2-->
+              <div class="committees-detail" id = "p3" style="display:none;">
+                <button class="headcom">UNIDO</button>
+                <br>
+                UNIDO is the specialized agency of the United Nations that promotes industrial development for poverty reduction, inclusive globalization and environmental sustainability.
+The mission of the United Nations Industrial Development Organization (UNIDO), as described in the Lima Declaration adopted at the fifteenth session of the UNIDO General Conference in 2013, is to promote and accelerate Inclusive and Sustainable Industrial Development (ISID) in developing countries and economies in transition.
+                <br>
+              <button onclick="close3()" class="close3">Close</button>
+              </div>
+              <script>
+
+              function pop3(){
+                document.getElementById('p3').style.display = "block";
+              }
+
+              function close3(){
+                if(document.getElementById("p3").style.display == "block"){
+                                document.getElementById("p3").style.display = "none";
+                              }
+              }
+              </script>
+
+              <!-- / end modal popup -->
+
+						</div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fa fa-clock-o fa-3x"></i>
+								</div>
+								<h3>UNCSW</h3>
+								<p>United Nations Commission on the Status of Women</p>
+                <button onclick="pop4()">Detail</button>
+							</div>
+
+              <!-- model poup 4-->
+              <div class="committees-detail" id = "p4" style="display:none;">
+                <button class="headcom">UNCSW</button>
+                <br>
+                The Commission on the Status of Women (CSW) is the principal global intergovernmental body exclusively dedicated to the promotion of gender equality and the empowerment of women. A functional commission of the Economic and Social Council (ECOSOC), it was established by Council Resolution 11, of 21 June 1946.
+The CSW is instrumental in promoting women’s rights, documenting the reality of women’s lives throughout the world, and shaping global standards on gender equality and the empowerment of women.
+                <br>
+              <button onclick="close4()" class="close4">Close</button>
+              </div>
+              <script>
+
+              function pop4(){
+                document.getElementById('p4').style.display = "block";
+              }
+
+              function close4(){
+                if(document.getElementById("p4").style.display == "block"){
+                                document.getElementById("p4").style.display = "none";
+                              }
+              }
+              </script>
+
+              <!-- / end modal popup -->
+
 						</div>
 
 					</div>
@@ -304,9 +406,10 @@
 								<div class="service-icon">
 									<i class="fa fa-home fa-3x"></i>
 								</div>
-								<h3>Support</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+								<h3>COPUOS</h3>
+								<p>The Committee on the Peaceful Uses of Outer Space</p>
                 <button>Detail</button>
+                <div class="committees-detail">The Committee on the Peaceful Uses of Outer Space (COPUOS) was set up by the General Assembly in 1959 to govern the exploration and use of space for the benefit of all humanity: for peace, security and development. The Committee was tasked with reviewing international cooperation in peaceful uses of outer space, studying space-related activities that could be undertaken by the United Nations, encouraging space research programmes, and studying legal problems arising from the exploration of outer space.</div>
 							</div>
 						</div>
 
@@ -315,9 +418,10 @@
 								<div class="service-icon">
 									<i class="fa fa-tasks fa-3x"></i>
 								</div>
-								<h3>Well Documented</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+								<h3>WTO</h3>
+								<p>The World Trade Organization</p>
                 <button>Detail</button>
+                <div class="committees-detail">The World Trade Organization (WTO) is the only global international organization dealing with the rules of trade between nations. At its heart are the WTO agreements, negotiated and signed by the bulk of the world’s trading nations and ratified in their parliaments. The goal is to help producers of goods and services, exporters, and importers conduct their business. It is an organization for trade opening, a forum for governments to negotiate trade agreements, and a place for them to settle trade disputes. Essentially, the WTO is a place where member governments try to sort out the trade problems they face with each other.</div>
 							</div>
 						</div>
 
@@ -326,9 +430,10 @@
 								<div class="service-icon">
 									<i class="fa fa-clock-o fa-3x"></i>
 								</div>
-								<h3>Design UI/UX</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+								<h3>Lok Sabha</h3>
+								<p>Lok Sabha (House of the People) is the Lower house of India's bicameral Parliament</p>
                 <button>Detail</button>
+                <div class="committees-detail">The Lok Sabha (House of the People) is the Lower house of India's bicameral Parliament, with the Upper house being the Rajya Sabha. Members of the Lok Sabha are elected by adult universal suffrage and a first-past-the-post system to represent their respective constituencies, and they hold their seats for five years or until the body is dissolved by the President on the advice of the council of ministers. The house meets in the Lok Sabha Chambers of the Sansad Bhavan in New Delhi.</div>
 							</div>
 						</div>
 
@@ -338,9 +443,10 @@
 									<i class="fa fa-heart fa-3x"></i>
 								</div>
 
-								<h3>Web Security</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+								<h3>International Press</h3>
+								<p>Provides a real time media coverage to the various committees in the MUN</p>
                 <button>Detail</button>
+                <div class="committees-detail">This body provides a real time media coverage to the various committees in the MUN. Instead of representing the interests of a single country, the International Press Delegation allows participants to act as unbiased journalists, reporting on the proceedings of each simulation in the Conference. The members observe the simulations in the committees as they unfold and disseminate all the information to all the participants.</div>
 							</div>
 						</div>
           </div>

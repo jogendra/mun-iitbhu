@@ -553,11 +553,10 @@ h1.navbar-brand {
 }
 
 .service-item:hover .service-icon {
-    border: 1px solid rgba(0,0,0,.4);
+
     margin-bottom: 20px;
     color: black;
-    outline: 1px solid rgba(0,0,0,.6);
-    outline-offset: 5px;
+  
 }
 
 .service-icon i {
@@ -1512,4 +1511,37 @@ margin-bottom: 5%;
 
 .munlogin{
   background: #0084ff;
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8{
+  z-index: 20000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    visibility: visible;
+    width: 100%;
+    background: black;
+    overflow: scroll;
+    padding: 3% 2%;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 1%;
+    border: 1px solid white;
+}
+.close1, .close2, .close3, .close4, .close5, .close6, .close7, .close8{
+  color: black;
+padding: 1% 3%;
+margin: 5%;
+border: 1px solid white;
+border-radius: 5px;
+}
+
+.headcom{
+  color: black;
+padding: 1% 3%;
+margin: 5%;
+border: 1px solid white;
+border-radius: 5px;
 }
