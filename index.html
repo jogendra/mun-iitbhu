@@ -55,7 +55,7 @@
 		<!-- preloader -->
 		<div id="preloader">
             <div class="loder-box">
-            	<div class="battery">Loading... Hold On!</div>
+            	<div class="battery"></div>
             </div>
 		</div>
 		<!-- end preloader -->
@@ -242,7 +242,7 @@
 
 
 			<!-- Service section -->
-			<section id="service">
+			<section id="service" style="background: rgba(0,0,0,.05);">
 				<div class="container">
 					<div class="row">
 
@@ -408,9 +408,32 @@ The CSW is instrumental in promoting women’s rights, documenting the reality o
 								</div>
 								<h3>COPUOS</h3>
 								<p>The Committee on the Peaceful Uses of Outer Space</p>
-                <button>Detail</button>
-                <div class="committees-detail">The Committee on the Peaceful Uses of Outer Space (COPUOS) was set up by the General Assembly in 1959 to govern the exploration and use of space for the benefit of all humanity: for peace, security and development. The Committee was tasked with reviewing international cooperation in peaceful uses of outer space, studying space-related activities that could be undertaken by the United Nations, encouraging space research programmes, and studying legal problems arising from the exploration of outer space.</div>
+                <button onclick="pop5()">Detail</button>
 							</div>
+
+              <!-- model poup 5-->
+              <div class="committees-detail" id = "p5" style="display:none;">
+                <button class="headcom">COPUOS</button>
+                <br>
+                The Committee on the Peaceful Uses of Outer Space (COPUOS) was set up by the General Assembly in 1959 to govern the exploration and use of space for the benefit of all humanity: for peace, security and development. The Committee was tasked with reviewing international cooperation in peaceful uses of outer space, studying space-related activities that could be undertaken by the United Nations, encouraging space research programmes, and studying legal problems arising from the exploration of outer space.
+                <br>
+              <button onclick="close5()" class="close5">Close</button>
+              </div>
+              <script>
+
+              function pop5(){
+                document.getElementById('p5').style.display = "block";
+              }
+
+              function close5(){
+                if(document.getElementById("p5").style.display == "block"){
+                                document.getElementById("p5").style.display = "none";
+                              }
+              }
+              </script>
+
+              <!-- / end modal popup -->
+
 						</div>
 
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
@@ -419,10 +442,31 @@ The CSW is instrumental in promoting women’s rights, documenting the reality o
 									<i class="fa fa-tasks fa-3x"></i>
 								</div>
 								<h3>WTO</h3>
-								<p>The World Trade Organization</p>
-                <button>Detail</button>
-                <div class="committees-detail">The World Trade Organization (WTO) is the only global international organization dealing with the rules of trade between nations. At its heart are the WTO agreements, negotiated and signed by the bulk of the world’s trading nations and ratified in their parliaments. The goal is to help producers of goods and services, exporters, and importers conduct their business. It is an organization for trade opening, a forum for governments to negotiate trade agreements, and a place for them to settle trade disputes. Essentially, the WTO is a place where member governments try to sort out the trade problems they face with each other.</div>
+								<p>World Trade Organization</p>
+                <button onclick="pop6()">Detail</button>
 							</div>
+              <!-- model poup 6-->
+              <div class="committees-detail" id = "p6" style="display:none;">
+                <button class="headcom">WTO</button>
+                <br>
+                The World Trade Organization (WTO) is the only global international organization dealing with the rules of trade between nations. At its heart are the WTO agreements, negotiated and signed by the bulk of the world’s trading nations and ratified in their parliaments. The goal is to help producers of goods and services, exporters, and importers conduct their business. It is an organization for trade opening, a forum for governments to negotiate trade agreements, and a place for them to settle trade disputes. Essentially, the WTO is a place where member governments try to sort out the trade problems they face with each other.
+                <br>
+              <button onclick="close6()" class="close6">Close</button>
+              </div>
+              <script>
+
+              function pop6(){
+                document.getElementById('p6').style.display = "block";
+              }
+
+              function close6(){
+                if(document.getElementById("p6").style.display == "block"){
+                                document.getElementById("p6").style.display = "none";
+                              }
+              }
+              </script>
+
+              <!-- / end modal popup -->
 						</div>
 
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
@@ -431,10 +475,31 @@ The CSW is instrumental in promoting women’s rights, documenting the reality o
 									<i class="fa fa-clock-o fa-3x"></i>
 								</div>
 								<h3>Lok Sabha</h3>
-								<p>Lok Sabha (House of the People) is the Lower house of India's bicameral Parliament</p>
-                <button>Detail</button>
-                <div class="committees-detail">The Lok Sabha (House of the People) is the Lower house of India's bicameral Parliament, with the Upper house being the Rajya Sabha. Members of the Lok Sabha are elected by adult universal suffrage and a first-past-the-post system to represent their respective constituencies, and they hold their seats for five years or until the body is dissolved by the President on the advice of the council of ministers. The house meets in the Lok Sabha Chambers of the Sansad Bhavan in New Delhi.</div>
+								<p>The Lower House of India's Bicameral Parliament</p>
+                <button onclick="pop7()">Detail</button>
 							</div>
+              <!-- model poup 7-->
+              <div class="committees-detail" id = "p7" style="display:none;">
+                <button class="headcom">LOK SABHA</button>
+                <br>
+                The Lok Sabha (House of the People) is the Lower house of India's bicameral Parliament, with the Upper house being the Rajya Sabha. Members of the Lok Sabha are elected by adult universal suffrage and a first-past-the-post system to represent their respective constituencies, and they hold their seats for five years or until the body is dissolved by the President on the advice of the council of ministers. The house meets in the Lok Sabha Chambers of the Sansad Bhavan in New Delhi.
+                <br>
+              <button onclick="close7()" class="close7">Close</button>
+              </div>
+              <script>
+
+              function pop7(){
+                document.getElementById('p7').style.display = "block";
+              }
+
+              function close7(){
+                if(document.getElementById("p7").style.display == "block"){
+                                document.getElementById("p7").style.display = "none";
+                              }
+              }
+              </script>
+
+              <!-- / end modal popup -->
 						</div>
 
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
@@ -443,11 +508,32 @@ The CSW is instrumental in promoting women’s rights, documenting the reality o
 									<i class="fa fa-heart fa-3x"></i>
 								</div>
 
-								<h3>International Press</h3>
-								<p>Provides a real time media coverage to the various committees in the MUN</p>
-                <button>Detail</button>
-                <div class="committees-detail">This body provides a real time media coverage to the various committees in the MUN. Instead of representing the interests of a single country, the International Press Delegation allows participants to act as unbiased journalists, reporting on the proceedings of each simulation in the Conference. The members observe the simulations in the committees as they unfold and disseminate all the information to all the participants.</div>
+								<h3>IP</h3>
+								<p>International Press</p>
+                <button onclick="pop8()">Detail</button>
 							</div>
+              <!-- model poup 8-->
+              <div class="committees-detail" id = "p8" style="display:none;">
+                <button class="headcom">IP</button>
+                <br>
+                This body provides a real time media coverage to the various committees in the MUN. Instead of representing the interests of a single country, the International Press Delegation allows participants to act as unbiased journalists, reporting on the proceedings of each simulation in the Conference. The members observe the simulations in the committees as they unfold and disseminate all the information to all the participants.
+                <br>
+              <button onclick="close8()" class="close8">Close</button>
+              </div>
+              <script>
+
+              function pop8(){
+                document.getElementById('p8').style.display = "block";
+              }
+
+              function close8(){
+                if(document.getElementById("p8").style.display == "block"){
+                                document.getElementById("p8").style.display = "none";
+                              }
+              }
+              </script>
+
+              <!-- / end modal popup -->
 						</div>
           </div>
 				</div>

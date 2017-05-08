@@ -556,7 +556,7 @@ h1.navbar-brand {
 
     margin-bottom: 20px;
     color: black;
-  
+
 }
 
 .service-icon i {
@@ -1430,10 +1430,17 @@ textarea.form-control {
     color: #7f7f7f;
 }
 .service-item{
-  border: 1px solid black;
+    border: 1px solid black;
     padding: 10%;
     height: 300px;
-margin-bottom: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 2%;
+    box-shadow: inset 0 0 0 5px rgba(0,0,0,.1);
+}
+.service-item:hover{
+  background-color: white;
+  transition: 0.3s;
 }
 .service-item button{
       margin-top: 5%;
@@ -1441,6 +1448,7 @@ margin-bottom: 5%;
       text-transform: uppercase;
       border: 1px solid black;
       letter-spacing: 1px;
+      border-radius: 5px;
 }
 /*register section*/
 #register{
