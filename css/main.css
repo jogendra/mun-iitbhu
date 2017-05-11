@@ -542,11 +542,11 @@ h1.navbar-brand {
   height: 50px;
   width: 50px;
 
-    -webkit-transform: rotate(47deg);
+    /*-webkit-transform: rotate(47deg);
        -moz-transform: rotate(47deg);
         -ms-transform: rotate(47deg);
          -o-transform: rotate(47deg);
-            transform: rotate(47deg);
+            transform: rotate(47deg);*/
 
     -webkit-transition: all 0.3s ease 0s;
        -moz-transition: all 0.3s ease 0s;
@@ -1632,5 +1632,24 @@ border-radius: 5px;
 @media screen and (max-width:768px){
   .head-varanasi{
 margin-top: 12%;
+  }
+}
+.head-logo{
+  width: 15%;
+  float: left;
+}
+@media screen and (min-width:768px){
+  .head-logo{
+    width: 12%;
+  }
+}
+
+.mainlogo{
+width: 40%;
+}
+@media screen and (min-width:768px){
+  .mainlogo{
+    width: 250px;
+    height: 250px;
   }
 }
